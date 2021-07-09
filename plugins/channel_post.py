@@ -29,8 +29,7 @@ async def channel_post(client: Client, message: Message):
     await reply_text.edit(f"{link}", disable_web_page_preview = True)
 
     if not DISABLE_CHANNEL_BUTTON:
-        await reply_text.edit(f"{link}", disable_web_page_preview = True)
-
+        await 
 
 @Bot.on_message(filters.channel & filters.incoming & filters.chat(CHANNEL_ID) & ~filters.edited)
 async def new_post(client: Client, message: Message):
@@ -43,7 +42,7 @@ async def new_post(client: Client, message: Message):
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
         try:
-        await reply_text.edit(f"{link}", disable_web_page_preview = True)
+        await 
 
     except Exception as e:
         print(e)
