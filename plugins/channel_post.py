@@ -29,7 +29,8 @@ async def channel_post(client: Client, message: Message):
     await reply_text.edit(f"{link}", disable_web_page_preview = True)
 
     if not DISABLE_CHANNEL_BUTTON:
-        await post_message.edit_reply_markup(reply_markup)
+        await reply_text.edit(f"{link}", disable_web_page_preview = True)
+
 
 @Bot.on_message(filters.channel & filters.incoming & filters.chat(CHANNEL_ID) & ~filters.edited)
 async def new_post(client: Client, message: Message):
