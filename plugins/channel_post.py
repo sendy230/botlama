@@ -25,11 +25,12 @@ async def channel_post(client: Client, message: Message):
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
 
-   
+reply_markup = InlineKeyboardMarkup
+
     await reply_text.edit(f"{link}", disable_web_page_preview = True)
 
     if not DISABLE_CHANNEL_BUTTON:
-        await 
+        await message.edit_reply_markup(reply_markup)
 
 @Bot.on_message(filters.channel & filters.incoming & filters.chat(CHANNEL_ID) & ~filters.edited)
 async def new_post(client: Client, message: Message):
@@ -41,8 +42,9 @@ async def new_post(client: Client, message: Message):
     string = f"get-{converted_id}"
     base64_string = await encode(string)
     link = f"https://t.me/{client.username}?start={base64_string}"
-        try:
-        await 
+      
+  try:
+        await await message.edit_reply_markup(reply_markup)
 
     except Exception as e:
         print(e)
