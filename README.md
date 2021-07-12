@@ -4,16 +4,7 @@
   <a href="https://www.python.org">
     <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
   </a>
-  <a href="https://t.me/CodeXBotz">
-    <img src="https://github.com/lullaby23/botfc/" width="250">
-  </a><br>
-  <a href="https://t.me/foryoubbs">
-    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Channel-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
-  </a>
-  <a href="https://t.me/mutualFYB">
-    &nbsp;<img src="https://img.shields.io/badge/Code%20%F0%9D%95%8F%20Botz-Group-blue?style=flat-square&logo=telegram" width="130" height="18">&nbsp;
-  </a>
-  <br>
+<br>
   <a href="https://github.com/lullaby23/botfc/stargazers">
     <img src="https://img.shields.io/github/stars/CodeXBotz/File-Sharing-Bot?style=social">
   </a>
