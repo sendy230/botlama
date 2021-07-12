@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Contact Person : 📞<a href='tg://user?id={OWNER_ID}'>Click Here</a>\n</b>",
+            text = f"<b>○ Script Bot Edited By : 📞<a href='t.me/fybadmin'>Lullaby</a>\n</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
