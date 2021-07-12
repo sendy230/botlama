@@ -1,12 +1,12 @@
 # File-sharing-Bot
 
 <p align="center">
-  <a href="https://www.python.org">
-    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
+<a href="https://www.t.me/foryoubbs">
+    <img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/telegram_button_icon_151837.png" width ="250">
   </a>
 <br>
-    <a href="https://www.t.me/foryoubbs">
-    <img src="https://cdn.icon-icons.com/icons2/2530/PNG/512/telegram_button_icon_151837.png" width ="250">
+  <a href="https://www.python.org">
+    <img src="http://ForTheBadge.com/images/badges/made-with-python.svg" width ="250">
   </a>
 <br>
   <a href="https://github.com/lullaby23/botfc/stargazers">
