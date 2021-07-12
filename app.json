@@ -1,45 +1,45 @@
 
 {
-  "name": "TG File Sharing Bot",
+  "name": "FYB FileSharing",
   "description": "file sharing bot store posts and it can access by special links",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/CodeXBotz/File-Sharing-Bot",
-  "logo": "https://telegra.ph/file/14d3013fda21281c54b61.jpg",
+  "repository": "https://github.com/lullaby23",
+  "logo": "https://i.ibb.co/Sy3VtVZ/IMG-20210712-155107-006.jpg",
   "env": {
     "TG_BOT_TOKEN": {
-      "description": "Your Bot token, Get it from @Botfather",
+      "description": "Dapatkan Token dari @Botfather",
       "value": ""
     },
     "OWNER_ID": {
-      "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "description": "Owner ID, Dipakai di tab about bot cari ID mu di bot @myidbot",
+      "value": "1823080600"
     },
     "APP_ID":{
-      "description": "your app id, take it from my.telegram.org",
+      "description": "Cari di my.telegram.org atau di bot @TeleORG_Bot",
       "value": ""
     },
     "API_HASH":{
-      "description": "your api hash, take it from my.telegram.org",
+      "description": "Cari di my.telegram.org atau di bot @TeleORG_Bot",
       "value": ""
     },
     "CHANNEL_ID":{
-      "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
+      "description": "Buat Private Channel (database channel), Lalu jadiin bot sebagai admin, Kemduian masukkan id Channelnya",
       "value": "-100"
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
+      "description": "ID Channel Utama yang digunakan untuk memaksa subscribe sebelum menggunakan bot",
       "value": "0"
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "Hello {first}\n\n Saya berguna untuk memberikan file video dari channel bot ini, dapatkan link dari channel bot ini."
     },
     "ADMINS": {
-      "description": "A space separated list of user_ids of Admins, they can only create links",
+      "description": "ID Admin, Akun yang bisa menggunakan bot untuk mendapatkan link.",
       "value": "",
       "required": false
     }
