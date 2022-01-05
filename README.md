@@ -39,7 +39,7 @@ Contoh: <a href="https://t.me/save_fybot">Foryoubabes Media Files</a>
 ##
 ### Installation
 #### Deploy on Heroku
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lullaby23/botfc/)</br>
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/lullaby23/botlama/)</br>
 
 #### Deploy in your VPS
 ````bash
